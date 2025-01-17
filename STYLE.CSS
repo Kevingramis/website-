@@ -1,0 +1,82 @@
+:root
+{ 
+  --blue : #2C2564
+  --dark-blue : #101535
+  --green : #00E809
+  --white : #fff
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+boby
+{
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+header
+{
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 15pt;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--blue);
+}
+
+.title
+{
+  color: var(--green);
+  border-bottom: lpx solid var(--white);
+}
+
+.input-search
+{
+  width: 30%;
+  border: none;
+  border-radius: 0 0 0 20px;
+  padding: 3px;
+}
+
+.input-submit
+{
+  margin-left: 5px;
+  border: none;
+  border-radius: 0 20px 0 0;
+  padding: 2px;
+  background-color: var(--green);
+  color: var(--blue);
+  width: 5%;
+}
+
+nav
+{
+  margin-top: 15px;
+}
+
+nav ul
+{
+  display: fixed;
+  gap: 20px;
+  justify-content: center
+}
+
+nav ul li a
+{
+  color: var(--green);
+}
+
+nav ul li a:hover
+{
+  border-bottom: 3px solid var(--white);
+}
